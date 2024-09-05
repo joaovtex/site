@@ -1,0 +1,19 @@
+.pagina-contador {
+    display: flex;
+    justify-content: center;
+
+    .contador {
+        display: flex;
+        flex-direction: column;
+        border: black solid;
+        align-items: center;
+        padding: 10px;
+        padding-bottom: 50px;
+    }
+
+    button {
+        width: 100px;
+        background-color: black;
+        color: white;
+    }
+}
