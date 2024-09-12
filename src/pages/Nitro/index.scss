@@ -1,0 +1,12 @@
+.pagina-nitro {
+    padding: 10px;
+    text-align: center;
+    .fileira {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding-bottom: 20px;
+        
+    }
+}
