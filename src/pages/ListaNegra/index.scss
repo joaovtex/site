@@ -1,0 +1,46 @@
+.pagina-lista-negra {
+    font-size: 30px;
+    padding: 40px;
+
+    h1 {
+        margin: 10px 0px;
+    }
+
+    table {
+        width: 100%;
+
+        th {
+            text-align: left;
+        }
+    }
+
+    button {
+        font-size: 50px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        > div {
+            display: flex;
+
+            label {
+                width: 200px;
+                text-align: right;
+                margin-right: 10px;
+                display: inline-block;
+            }
+
+            input {
+                font-size: 30px;
+                width: 300px;
+            }
+            input[type=checkbox] {
+                width: auto;
+            }
+        }
+    }
+
+}
